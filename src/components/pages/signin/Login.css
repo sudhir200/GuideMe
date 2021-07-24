@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.lcontainer{
+    background-image: url(C:\Users\khati\Desktop\guideme\src\components\images\loginbc.jpg) ;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    align-content: center;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+
+}
+.lcontainer >h3{
+    color: white;
+    padding: 50px;
+    font-family: 'Indie Flower', cursive;
+}
+.email, .password{
+    height:60px;
+    width: 400px  ;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.login-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    color:rgb(19, 13, 105);
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.l-text{
+    font-size: 24px;
+    font-weight: bolder;
+    color:rgb(19, 13, 105);
+    font-family: 'Indie Flower', cursive;
+}
+::placeholder{
+    letter-spacing: 4px;
+    
+}
+.create{
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+.donot{
+    color: rgb(87, 6, 6);
+    
+}
